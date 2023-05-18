@@ -8,6 +8,9 @@ Once the ERD was complete, I actually worked on the questions next and then wrot
 
 As I run through the codes and inspect the final result, I had inor problems getting the wildcards to operate with repsect to the dates, but then discovered it had to do with the quotations around the parameter. Once that quotation was replaced, the code ran fine. The current issue has to do with the browswer version only letting me save sql files online and not on my hard drive. When I go to 'Save As', the filepath cannot be adjusted to any location on my computer, so I'm not able to produce an actual sql file. If I try to add my own filepath, no matter how far back it extends, it is not recognized. 
 
-As you can see below, there is a previous extension '/var/lib/pgadmin/storage/mdcummings86_gmail.com' prior to my filepath, preventing me from using 'save as' or 'back up' with just the schema. 
+As you can see below, there is a previous extension '/var/lib/pgadmin/storage/mdcummings86_gmail.com' prior to my filepath, preventing me from using 'save as' or 'back up' with just the schema. Below this error, I have also attached a screenshot verifying that I did use code to engage with PGAdmin 4 and you can see I have also attempted to 'Save As' .sql file to no avail. 
 
 <img width="721" alt="image" src="https://github.com/MDCummings86/sql-challenge/assets/126340452/01bf1018-6a1b-4496-bb3a-5918559a5374">
+
+![image](https://github.com/MDCummings86/sql-challenge/assets/126340452/cb0b5394-1fe6-4129-a94a-262dfe89596c)
+
