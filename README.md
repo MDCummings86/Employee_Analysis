@@ -1,16 +1,27 @@
-# sql-challenge
-SQL Boot Camp Assignment
-Basic SQL Commands. Relational Databases
+Instructions
 
-This assignment wasn't too bad. I attacked the ERD first after gaining a comfortable understanding of the contents of each table. I had a bit of difficulty remembering the nuances between Primary, Foreign, and Composite keys, but I think I've come to understand it now since the composite key uses more than one column to refer to information in another table. The relationships were also challenging, but I think I now understand the relationships between the tables and their keys. 
+This Challenge is divided into three parts: data modeling, data engineering, and data analysis.
+Data Modeling
 
-Once the ERD was complete, I actually worked on the questions next and then wrote out the Drop and Create Table codes starting with the least dependencies first. I then had a bit of difficulty importing the tables, but eventually figured it out. I am using the browser version on my mac, so when it promted me to provide a filepath for the csv files, it added a hidden filepath prior to any filepath I tried to paste, so I kept getting 'file not found in directory'. I then found how to upload the actual files as opposed to providing the filepath and that worked well once I imported the data in the right order according to the keys. 
+Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables. To create the sketch, feel free to use a tool like QuickDBD Links to an external site..
+Data Engineering
 
-As I run through the codes and inspect the final result, I had inor problems getting the wildcards to operate with repsect to the dates, but then discovered it had to do with the quotations around the parameter. Once that quotation was replaced, the code ran fine. The current issue has to do with the browswer version only letting me save sql files online and not on my hard drive. When I go to 'Save As', the filepath cannot be adjusted to any location on my computer, so I'm not able to produce an actual sql file. If I try to add my own filepath, no matter how far back it extends, it is not recognized. 
+Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
+Remember to specify the data types, primary keys, foreign keys, and other constraints.
+For the primary keys, verify that the column is unique. Otherwise, create a composite key Links to an external site., which takes two primary keys to uniquely identify a row.
+Be sure to create the tables in the correct order to handle the foreign keys.
+Import each CSV file into its corresponding SQL table.
 
-As you can see below, there is a previous extension '/var/lib/pgadmin/storage/mdcummings86_gmail.com' prior to my filepath, preventing me from using 'save as' or 'back up' with just the schema. Below this error, I have also attached a screenshot verifying that I did use code to engage with PGAdmin 4 and you can see I have also attempted to 'Save As' .sql file to no avail. 
 
-<img width="721" alt="image" src="https://github.com/MDCummings86/sql-challenge/assets/126340452/01bf1018-6a1b-4496-bb3a-5918559a5374">
+Data Analysis
 
-![image](https://github.com/MDCummings86/sql-challenge/assets/126340452/cb0b5394-1fe6-4129-a94a-262dfe89596c)
+1.List the employee number, last name, first name, sex, and salary of each employee.
+2.List the first name, last name, and hire date for the employees who were hired in 1986.
+3.List the manager of each department along with their department number, department name, employee number, last 4.name, and first name.
+5.List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+6.List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+7.List each employee in the Sales department, including their employee number, last name, and first name.
+8.List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+9.List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+
 
